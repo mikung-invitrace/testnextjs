@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{secrets.DOCKERHUB_USERNAME}}/testnextjs:${{github.sha}}
+        tags: ${{secrets.DOCKERHUB_USERNAME}}/testnextjs:0.0.1
